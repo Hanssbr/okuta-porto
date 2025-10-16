@@ -1,4 +1,3 @@
-import React from "react";
 import arrow from "../assets/Arrow 1.png";
 import backtext from "../assets/Rectangle.png";
 import kaset from "../assets/Kasetcrop.png";
