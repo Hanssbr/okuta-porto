@@ -13,7 +13,7 @@ export const About = () => {
       <div className="relative">
         <div className="bg-blue-smooth w-full h-[60rem] overflow-hidden relative">
           <Navbar title="About" bg="bg-pink-smooth" color="bg-yellow-smooth" />
-          <div className="flex justify-between relative z-0 mb-20">
+          <div className="flex justify-between relative z-0 mb-30">
             {/* bagian chp blank space */}
             <div className="flex font-slab items-center">
               <div className="">
@@ -38,7 +38,7 @@ export const About = () => {
             <img src={octa} alt="octa" className="absolute w-full z-0" />
           </div>
           <div className="flex w-full justify-center items-center gap-12 z-10 relative">
-            <img src={antena} alt="anten" className="absolute bottom-[400px] right-50"/>
+            <img src={antena} alt="anten" className="absolute bottom-[460px] right-50"/>
             <div className="w-2/3 h-[30rem] bg-black flex justify-evenly items-center rounded-2xl">
               <div className="h-96 w-96 rounded-full bg-yellow-smooth overflow-hidden flex justify-center items-center">
                 <img src={octaImage} alt="octa imeg" className="w-[95%]"/>
