@@ -11,19 +11,23 @@ export const Hero = () => {
           {/* bagian chp blank space */}
           <div className="flex font-slab items-center">
             <div className="">
-              <h1 className="text-9xl font-slab">CHP-01-</h1>
-              <img src={arrow} alt="arrow" className="w-[420px]" />
+              <h1 className="text-9xl font-slab animate-fade">CHP-01-</h1>
+              <img
+                src={arrow}
+                alt="arrow"
+                className="w-[420px] animate-inFade"
+              />
             </div>
-            <div className="flex flex-col gap-5 text-5xl">
+            <div className="flex flex-col gap-5 text-5xl animate-fade">
               <p className="">BLANK</p>
               <p className="">SPACE</p>
             </div>
           </div>
           {/* Bagian Block warna */}
-          <div className="flex flex-col items-end gap-7">
-            <div className="w-44 h-8 bg-green-smooth"></div>
-            <div className="w-32 h-8 bg-yellow-fresh"></div>
-            <div className="w-56 h-8 bg-purple-smooth"></div>
+          <div className="flex flex-col items-end gap-7 overflow-hidden">
+            <div className="w-44 h-8 bg-green-smooth animate-jiggle-right"></div>
+            <div className="w-32 h-8 bg-yellow-fresh animate-jiggle-right"></div>
+            <div className="w-56 h-8 bg-purple-smooth animate-jiggle-right"></div>
           </div>
         </div>
         <img
@@ -38,9 +42,9 @@ export const Hero = () => {
         />
         <div className="flex justify-between">
           <div className="flex flex-col gap-2">
-            <div className="w-44 h-8 bg-green-smooth"></div>
-            <div className="w-32 h-8 bg-yellow-fresh"></div>
-            <div className="w-56 h-8 bg-purple-smooth"></div>
+            <div className="w-44 h-8 bg-green-smooth animate-jiggle-left"></div>
+            <div className="w-32 h-8 bg-yellow-fresh animate-jiggle-left"></div>
+            <div className="w-56 h-8 bg-purple-smooth animate-jiggle-left"></div>
           </div>
           {/* Kumpulan Kaset */}
           <div className="flex mr-2h z-10">
