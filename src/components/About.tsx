@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar } from "./Navbar";
 import arrow from "../assets/Arrow 1.png";
 import octa from "../assets/bg-octa.png";
