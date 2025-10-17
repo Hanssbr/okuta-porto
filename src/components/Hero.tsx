@@ -29,7 +29,7 @@ export const Hero = () => {
         <img
           src={kaset}
           alt="backtext"
-          className="w-[50rem] absolute top-10 left-1/2 -translate-x-1/2"
+          className="w-[50rem] absolute top-10 left-1/2 -translate-x-1/2 animate-fade-rotate"
         />
         <img
           src={backtext}
@@ -44,28 +44,28 @@ export const Hero = () => {
           </div>
           {/* Kumpulan Kaset */}
           <div className="flex mr-2h z-10">
-            <div className="bg-blue-200 w-15 h-52 flex justify-center items-center rounded-md border-r-3">
+            <div className="bg-blue-200 w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <p className="text-white font-slab text-xl -rotate-90">home</p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
             </div>
-            <div className="bg-yellow-fresh w-15 h-52 flex justify-center items-center rounded-md border-r-3">
+            <div className="bg-yellow-fresh w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <p className="text-white font-slab text-xl -rotate-90">about</p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
             </div>
-            <div className="bg-green-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3">
+            <div className="bg-green-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <p className="text-white font-slab text-xl -rotate-90">work</p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
             </div>
-            <div className="bg-purple-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3">
+            <div className="bg-purple-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <a

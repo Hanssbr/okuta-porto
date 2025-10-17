@@ -5,8 +5,25 @@
   --font-slab: "Kelly Slab", sans-serif;
 
   --color-yellow-smooth: #fef99b;
-  --color-yellow-fresh: #FEEE7D;
+  --color-yellow-fresh: #feee7d;
   --color-grey-smooth: #d9d9d9;
-  --color-green-smooth: #42B6B5;
-  --color-purple-smooth: #988CD7;
+  --color-green-smooth: #42b6b5;
+  --color-purple-smooth: #988cd7;
+}
+
+@keyframes fadeRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Daftarkan animasi agar bisa dipakai di class */
+@utility animate-fade-rotate {
+  animation: fadeRotate 3s ease-in-out infinite;
 }

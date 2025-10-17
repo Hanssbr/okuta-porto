@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
     <>
-      <div className="bg-yellow-smooth h-17 flex justify-between px-10 items-center">
+      <div className="bg-yellow-smooth h-17 flex justify-between px-10 items-center border-t-2 border-black">
         <div className="" id="home">
           <div className="bg-blue-200 w-44 h-12 flex justify-center items-center rounded-md">
             <div className="bg-black w-[80%] h-[70%] flex justify-between items-center px-2 rounded-4xl">
