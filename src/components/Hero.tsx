@@ -47,7 +47,7 @@ export const Hero = () => {
             <div className="w-56 h-8 bg-purple-smooth animate-jiggle-left"></div>
           </div>
           {/* Kumpulan Kaset */}
-          <div className="flex mr-2h z-10">
+          <div className="flex mr-2h z-10 pr-2">
             <div className="bg-blue-200 w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
