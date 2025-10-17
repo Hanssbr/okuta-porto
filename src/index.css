@@ -69,6 +69,36 @@
   }
 }
 
+@keyframes kasetMasuk {
+  0% {
+    transform: translateY(10%);
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(30%);
+  }
+  30% {
+    transform: translateY(70%);
+    padding-top: 30px;
+    height: 70px;
+  }
+  40% {
+    transform: translate();
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes kaset3d {
+  0% {
+    height: 60px;
+  }
+  100% {
+    height: 48px;
+  }
+}
+
 /* Daftarkan animasi agar bisa dipakai di class */
 @utility animate-fade-rotate {
   animation: fadeRotate 3s ease-in-out infinite;
@@ -88,4 +118,12 @@
 
 @utility animate-jiggle-left {
   animation: jiggle-left 1s ease-in-out infinite;
+}
+
+@utility animate-kaset {
+  animation: kasetMasuk 7s infinite;
+}
+
+@utility animate-kaset3d {
+  animation: kaset3d 7s ease-in-out infinite;
 }
