@@ -13,10 +13,10 @@ export const Navbar: React.FC<HeaderProps> = ({
     <>
       <div className={`${bg} h-17 flex justify-between px-10 items-center`}>
         <div className="" id="home">
-          <div className="h-12 w-44 bg-black rounded-md">
+          <div className="h-11 w-44 bg-black rounded-md">
               <div className={`${color} w-44 h-12 flex justify-center items-center rounded-md transition-all duration-200 hover:scale-120 animate-kaset`}>
-                <div className="bg-black w-[80%] h-[70%] flex justify-between items-center px-2 rounded-4xl">
-                  <div className="bg-grey-smooth w-[18%] h-[70%] rounded-full"></div>
+                <div className="bg-black w-[80%] h-[70%] flex justify-between items-center px-2 rounded-4xl border-t-4 border-white">
+                  <div className="bg-grey-smooth w-[18%] h-[70%] rounded-full border-2 border-white"></div>
                   <p className="text-white font-slab text-xl">{title}</p>
                   <div className="bg-grey-smooth w-[18%] h-[70%] rounded-full"></div>
                 </div>

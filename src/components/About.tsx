@@ -12,7 +12,9 @@ export const About = () => {
       <div className="mt-14"></div>
       <div className="relative">
         <div className="bg-blue-smooth w-full h-[60rem] overflow-hidden relative">
-          <Navbar title="About" bg="bg-pink-smooth" color="bg-yellow-smooth" />
+          <div className="relative z-10">
+              <Navbar title="About" bg="bg-pink-smooth" color="bg-yellow-smooth" />
+          </div>
           <div className="flex justify-between relative z-0 mb-30">
             {/* bagian chp blank space */}
             <div className="flex font-slab items-center">

@@ -1,13 +1,19 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
+import { Project } from "./components/Project";
+import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
     <>
-      <Navbar title="home" bg="bg-yellow-smooth" color="bg-blue-smooth"/>
+      <div className="relative z-10">
+        <Navbar title="home" bg="bg-yellow-smooth" color="bg-blue-smooth" />
+      </div>
       <Hero />
       <About />
+      <Project />
+      <Contact />
     </>
   );
 };
