@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import fotoOcta from "../assets/foto 1.png";
 
 interface Particle {

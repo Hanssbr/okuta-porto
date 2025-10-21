@@ -2,8 +2,6 @@ import { Navbar } from "./Navbar";
 import { useInView } from "../hooks/UseInView";
 import arrow from "../assets/Arrow 1.png";
 import tiket from "../assets/Ticket Project.png";
-import rak from "../assets/rak.png";
-import kaset from "../assets/kaset.png";
 
 export const Project = () => {
   const { ref, isVisible } = useInView<HTMLImageElement>();
