@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar } from "./Navbar";
 import { useInView } from "../hooks/UseInView";
 import arrow from "../assets/Arrow 1.png";
@@ -33,39 +32,27 @@ export const Project = () => {
           </div>
 
           {/* Box Project */}
-          <div className="w-[80%] mx-auto">
-            <div className="flex-col flex w-full justify-center items-center md:pl-[20rem] lg:pl-[29rem] pt-23 relative z-10">
-              <div className="flex flex-col gap-10">
-                <div>
-                  <h1 className="text-5xl font-slab">Latest Project</h1>
+          <div className="flex justify-center items-center">
+            <div
+              id="kaset_project_container"
+              className="w-[80%] h-[35rem] flex justify-center items-center"
+            >
+              <div className="h-[95%] w-[90%] relative">
+                <img src={tiket} alt=""  className="absolute z-0"/>
+              <div className="h-full w-full relative z-10 flex flex-col">
+                <div className="h-[12%] font-slab text-5xl flex justify-center items-end">
+                    <h1>Latest Project</h1>
                 </div>
-                <div className="grid grid-cols-2 grid-rows-2 md:gap-y-2 lg:gap-y-5 md:w-[40rem] lg:w-[50rem] h-[25rem] md:h-[30rem lg:h-[30rem]">
-                  <div className="w-[70%] h-[70%] border-2 border-black rounded-md">
-                    <img
-                      src={rak}
-                      alt="rak buku"
-                      className="w-full h-full bg-cover"
-                    />
-                  </div>
-                  <div className="w-[70%] h-[70%] border-2 border-black rounded-md">
-                    <img
-                      src={kaset}
-                      alt="kaset"
-                      className="w-full h-full bg-cover"
-                    />
-                  </div>
-                  <div className="w-[70%] h-[70%] border-2 border-black rounded-md"></div>
-                  <div className="w-[70%] h-[70%] border-2 border-black rounded-md"></div>
+                <div className="w-full h-[60%] flex flex-wrap justify-end items-end mt-[10] md:hidden lg:flex">
+                    <div className="w-[71%] h-[85%] gap-10 flex flex-wrap justify-center">
+                        <div className="w-[37%] h-1/2 border-2 border-black rounded-md"></div>
+                        <div className="w-[37%] h-1/2 border-2 border-black rounded-md"></div>
+                        <div className="w-[37%] h-1/2 border-2 border-black rounded-md"></div>
+                        <div className="w-[37%] h-1/2 border-2 border-black rounded-md"></div>
+                    </div>
                 </div>
               </div>
-              {/* Gambar tiket */}
-            </div>
-            <div className="flex justify-center items-center h-[1rem] pb-16">
-              <img
-                src={tiket}
-                alt="tiket"
-                className="w-10% h-10% absolute top-72"
-              />
+              </div>
             </div>
           </div>
         </div>
