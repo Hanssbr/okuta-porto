@@ -6,12 +6,14 @@ interface HeaderProps {
   title: string;
   color?: string;
   bg?: string;
+  id: string;
 }
 
 export const Navbar: React.FC<HeaderProps> = ({
   title,
   bg = "bg-yellow-smooth",
   color,
+  id
 }) => {
   const typedRef = useRef<HTMLSpanElement>(null);
 
@@ -45,7 +47,7 @@ export const Navbar: React.FC<HeaderProps> = ({
         </div>
       </div>
 
-      <div id="name" className="text-4xl font-slab underline">
+      <div id={id} className="text-4xl font-slab underline">
         <span ref={typedRef}>Okuta Rokuta</span>
       </div>
     </div>

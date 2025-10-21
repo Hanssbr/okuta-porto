@@ -9,11 +9,11 @@ export const About = () => {
   const { ref, isVisible } = useInView<HTMLImageElement>();
   return (
     <>
-      <div className="mt-14"></div>
+      <div className="mt-14" id="about"></div>
       <div className="relative">
         <div className="bg-blue-smooth w-full h-[60rem] overflow-hidden relative">
           <div className="relative z-10">
-              <Navbar title="About" bg="bg-pink-smooth" color="bg-yellow-smooth" />
+              <Navbar title="About" bg="bg-pink-smooth" color="bg-yellow-smooth" id="about"/>
           </div>
           <div className="flex justify-between relative z-0 mb-30">
             {/* bagian chp blank space */}

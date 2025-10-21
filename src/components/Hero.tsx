@@ -48,39 +48,42 @@ export const Hero = () => {
           </div>
           {/* Kumpulan Kaset */}
           <div className="flex mr-2h z-10 pr-2">
-            <div className="bg-blue-200 w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
+            <a
+              className="bg-blue-200 w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125"
+              href="#"
+            >
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <p className="text-white font-slab text-xl -rotate-90">home</p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
-            </div>
-            <div className="bg-yellow-fresh w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
+            </a>
+            <a
+              href="#about"
+              className="bg-yellow-fresh w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125"
+            >
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <p className="text-white font-slab text-xl -rotate-90">about</p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
-            </div>
-            <div className="bg-green-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
+            </a>
+            <a href="#project" className="bg-green-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
                 <p className="text-white font-slab text-xl -rotate-90">work</p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
-            </div>
-            <div className="bg-purple-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
+            </a>
+            <a href="#contact" className="bg-purple-smooth w-15 h-52 flex justify-center items-center rounded-md border-r-3 transition-all duration-200 hover:scale-125">
               <div className="bg-black w-[70%] h-[80%] flex flex-col justify-between items-center py-2 rounded-4xl">
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
-                <a
-                  href="https://www.instagram.com/octaviandwiramadhan80/"
-                  className="text-white font-slab text-xl -rotate-90"
-                >
+                <p className="text-white font-slab text-xl -rotate-90">
                   contact
-                </a>
+                </p>
                 <div className="bg-grey-smooth w-[70%] h-[18%] rounded-full"></div>
               </div>
-            </div>
+            </a>
           </div>
           <img src={rak} alt="rak" className="absolute right-0 mt-[18px] z-0" />
         </div>

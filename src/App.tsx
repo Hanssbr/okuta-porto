@@ -11,7 +11,7 @@ const App = () => {
       <div className="hidden md:block">
         <SummonImage />
         <div className="relative z-10">
-          <Navbar title="home" bg="bg-yellow-smooth" color="bg-blue-smooth" />
+          <Navbar title="home" bg="bg-yellow-smooth" color="bg-blue-smooth" id="#home"/>
         </div>
         <Hero />
         <About />

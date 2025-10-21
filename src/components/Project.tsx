@@ -7,9 +7,9 @@ export const Project = () => {
   const { ref, isVisible } = useInView<HTMLImageElement>();
   return (
     <>
-      <div className="relative z-10">
+      <div className="relative z-10" id="project">
         <div className="relative z-20">
-          <Navbar title="About" bg="bg-purple-smooth" color="bg-green-smooth" />
+          <Navbar title="About" bg="bg-purple-smooth" color="bg-green-smooth" id="project" />
         </div>
         <div className="bg-green-smooth">
           {/* bagian chp blank space */}

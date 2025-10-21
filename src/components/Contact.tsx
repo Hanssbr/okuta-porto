@@ -11,12 +11,13 @@ export const Contact = () => {
   const { ref, isVisible } = useInView<HTMLImageElement>();
   return (
     <>
-      <div className="bg-purple-smooth h-[55rem] overflow-hidden">
+      <div className="bg-purple-smooth h-[55rem] overflow-hidden" id="contact">
         <div className="relative z-10">
           <Navbar
             title="About"
             bg="bg-yellow-smooth"
             color="bg-purple-smooth"
+            id="contact"
           />
         </div>
         {/* bagian chp blank space */}
@@ -53,7 +54,7 @@ export const Contact = () => {
           <div className="">
             <div className="flex flex-col font-slab text-2xl justify-center gap-4">
               <a
-                href=""
+                href="https://www.facebook.com/okuta.rokuta"
                 target="_blank"
                 className="flex flex-row items-center gap-4"
               >
@@ -61,7 +62,7 @@ export const Contact = () => {
                 <p className="hover:text-purple-200">okutarokuta</p>
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/octaviandwiramadhan80/"
                 target="_blank"
                 className="flex flex-row items-center gap-4"
               >
@@ -69,7 +70,7 @@ export const Contact = () => {
                 <p className="hover:text-purple-200">octaviandwiramadhan80</p>
               </a>
               <a
-                href=""
+                href="https://workspace.google.com/intl/id/gmail/"
                 target="_blank"
                 className="flex flex-row items-center gap-4"
               >
